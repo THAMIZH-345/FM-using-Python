@@ -1,22 +1,22 @@
 # FM-using-Python
 
-Aim
+# Aim
 
 
 To implement and analyze frequency modulation (FM) using Python's NumPy and Matplotlib libraries. 
 
-Apparatus Required
+# Apparatus Required
 
 1.	Software: Python with NumPy and Matplotlib libraries
 2.	Hardware: Personal Computer
   
-Theory
+# Theory
 
 Frequency Modulation (FM) is a method of transmitting information over a carrier wave by varying its frequency in accordance with the amplitude of the input signal (message signal). The frequency of the carrier wave is varied according to the instantaneous amplitude of the message signal. The general form of an FM signal is:
 
 
 
-Algorithm
+# Algorithm
 
 
 1.	Initialize Parameters: Set the values for carrier frequency, message frequency, sampling frequency, and frequency deviation.
@@ -26,7 +26,7 @@ Algorithm
 5.	Generate FM Signal: Apply the FM modulation formula to obtain the modulated signal.
 6.	Plot the Signals: Use Matplotlib to plot the message signal, carrier signal, and modulated signal.
 
-Program
+# Program
 ```asm
 import numpy as np
 import matplotlib.pyplot as plt
@@ -48,23 +48,16 @@ plt.subplot(3,1,3)
 plt.plot(t,efm)
 ```
 
-Output Waveform
+# Output Waveform
 <img width="687" height="511" alt="image" src="https://github.com/user-attachments/assets/1a18c301-a10e-4cc7-ab84-410d42fcd0ad" />
 
 
-Tabular Column
+# Tabular Column
 <img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/2722f6ce-d62b-4539-bd5f-0ec6620c6f7f" />
 
-
-
-
-Calculation
+# Calculation
 
 <img width="900" height="1600" alt="image" src="https://github.com/user-attachments/assets/4781cfc2-e123-4fc3-a6a4-ac5e5bab5c72" />
 
-
-
-Result
-
-
+# Result
 The message signal, carrier signal, and frequency modulated (FM) signal will be displayed in separate plots. The modulated signal will show frequency variations corresponding to the amplitude of the message signal.
